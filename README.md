@@ -23,7 +23,7 @@ the notebooks:
 
 ```
 conda env create -f environment.yml     
-source activate tara_plot     
+conda activate tara-plot
 jupyter notebook
 ```
 
@@ -34,7 +34,7 @@ This will launch a jupyter enivonrment in which all jupyter notebooks might be r
 gene-sample table `metatranscriptomic_occurrences.tsv` (which is a ~120Gb tab delimited file). To run this notebook you will 
 need to download a copy of `metatranscriptomic_occurrences.tsv` locally and adjust the dask-jobqueue parameters to match that 
 of your own HPC. 
-- `PSR1-final-figures.ipynb` : Runs analysis for *psr*1 abundance in the transcriptomic data, normalizes data to total Micromonas abundance, 
+- `PSR1-final-figures.ipynb` : Runs analysis for *psr*1 abundance in the transcriptomic data, normalizes data to total *Micromonas* abundance, 
 and plots transcript data against environmental parameters. This notebook produces Figure 6 in the paper. 
 
 Note: All data files required for the running of the `PSR1-final-figures.ipynb` are provided in `input`-- including those which 
