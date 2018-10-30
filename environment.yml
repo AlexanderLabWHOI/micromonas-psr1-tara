@@ -1,0 +1,16 @@
+name: tara_plot
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - basemap=1.2.0=py36h50ae964_0
+  - dask=0.20.0=py_0
+  - dask-core=0.20.0=py_0
+  - dask-jobqueue=0.4.1=py_0
+  - matplotlib=3.0.0=2
+  - pandas=0.23.4=py36hf8a1672_0
+  - seaborn=0.9.0=py_0
+  - xlrd=1.1.0=py_2
+  - numpy=1.15.2=py36h1d66e8a_1
+  - scipy=1.1.0=py36hc49cb51_0
